@@ -50,8 +50,7 @@ public class SatPix {
 
 	private static int recursivelyMeasureAndMarkPasture(int row, int col, boolean[][] arr)
 	{
-		//This recursive method employs the flood-fill algorithm to
-		//count the size of a single pasture and "mark" it so it is not double-counted
+		
 		int count=0;
 		if(row>=0&&row<arr.length&&col>=0&&col<arr[0].length&&arr[row][col]==true)
 		{
